@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <button class="button-pushable" role="button">
+            <span class="button-shadow"></span>
+            <span class="button-edge"></span>
+            <span class="button-front yellow text">
+                <svg class="cart"
+                    xmlns="http://www.w3.org/2000/svg" 
+                    width="30px" 
+                    height="30px" 
+                    viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921M17.307 15h-6.64l-2.5-6h11.39z"/>
+                    <circle cx="10.5" cy="19.5" r="1.5" fill="currentColor"/><circle cx="17.5" cy="19.5" r="1.5" fill="currentColor"/>
+                </svg>
+                <div class = "iconSpace"></div>
+                Add to Cart
+            </span>
+        </button>
+        <div class = "space"></div>
+        <button class="button-pushable" role="button">
+            <span class="button-shadow"></span>
+            <span class="button-edge red"></span>
+            <span class="button-front text">
+                <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    width="30px" 
+                    height="30px" 
+                    viewBox="0 0 48 48">
+                    <g fill="none" stroke="currentColor" stroke-width="4">
+                    <path stroke-linejoin="round" d="M6 15h36l-2 27H8z" clip-rule="evenodd"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16 19V6h16v13"/>
+                    <path stroke-linecap="round" d="M16 34h16"/></g>
+                </svg>
+                <div class = "iconSpace"></div>
+                Buy Now
+            </span>
+        </button>
+    </div>
+</body>
+</html>
